@@ -9,18 +9,16 @@ class script(object):
 # ⚠️ Please don't change our credits 𝚃𝙷𝙰𝙽𝙺𝚂 𝚃𝙾 & 𝙳𝙴𝚅 👇🏻
 
     ABOUT_TXT = """<b>✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ ᴍʏ ʟᴏᴠᴇ: <a href=https://t.me/Mister_Ash>ᴍʏ ᴏᴡɴᴇʀ🥰</a>
-✯ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/The_Happy_Hour_Hindi>𝙏𝙝𝙚 𝙃𝙖𝙥𝙥𝙮 𝙃𝙤𝙪𝙧™</a>
-✯ ᴍʏ ᴏᴡɴᴇʀ: <a href=https://t.me/Mister_Ash>𝘼𝙨𝙝 𝙆𝙚𝙩𝙘𝙝𝙪𝙢</a>
-✯ ʟɪʙʀᴀʀʏ: ɴᴏ ɪᴅᴇᴀ
-✯ ʟᴀɴɢᴜᴀɢᴇ: ʜɪɴᴅɪ 🇮🇳
-✯ ᴅᴀᴛᴀʙᴀsᴇ: ꜰʀᴇᴇ ᴠᴀʟᴀ 🤫
-✯ sᴇʀᴠᴇʀ: ꜰʀᴇᴇ ᴠᴀʟᴀ 🤫
-✯ ʙᴜɪʟᴅ sᴛᴀᴛᴜs: ᴀᴄᴛɪᴠᴇ ✅</b>"""
+ 👨‍💻 ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/jk1boss'>Jᴋ Dᴇᴠᴇʟᴏᴘᴇʀ</a>
+ 📚 ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
+ 📝 ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a>
+ ♻️ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a>
+ 📡 ʜᴏsᴛᴇᴅ ᴏɴ  : <a href='https://www.heroku.com/'>Heroku</a>
+ 🥶 ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ3.0 [sᴛᴀʙʟᴇ]</b>"""
 
     SOURCE_TXT = """<b>NOTE:</b>
 <b>- ɢᴀᴀɴᴅ ᴍᴀʀᴀᴏ ʙsᴅᴋ 😝
-- 𝚂𝙾𝚄𝚁𝙲𝙴 - <a href=https://t.me/Mister_Ash>ɴʜɪ ᴅᴜɴɢᴀ ʙsᴅᴋ 🤪</a>"""
+- 𝚂𝙾𝚄𝚁𝙲𝙴 - <a href=https://t.me/jk1boss>ɴʜɪ ᴅᴜɴɢᴀ ʙsᴅᴋ 🤪</a>"""
 
 
 
@@ -279,24 +277,20 @@ Name - {}
 </b>
 """
 
-    IMDB_TEMPLATE_TXT = """
-<b>🔖 ᴛɪᴛʟᴇ :<a href={url}>{title}</a>
+    IMDB_TEMPLATE = """
+🏷 𝐓𝐢𝐭𝐥𝐞 : {title}
+🎭 𝐆𝐞𝐧𝐫𝐞𝐬 : {genres}
+🌟 𝐑𝐚𝐭𝐢𝐧𝐠 : {rating}
+📀 𝐑𝐮𝐧𝐓𝐢𝐦𝐞 : {runtime} Minutes
+📆 𝐑𝐞𝐥𝐞𝐚𝐬𝐞 𝐈𝐧𝐟𝐨 : {year}
+🎛 𝐂𝐨𝐮𝐧𝐭𝐫𝐢𝐞𝐬 : {countries}"""
 
-🎭 ɢᴇɴʀᴇs : {genres}
-🎖 ʀᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a> / 10 (ʙᴀsᴇᴅ ᴏɴ {votes} ᴜsᴇʀ ʀᴀᴛɪɴɢ.)
-
-📆 ʏᴇᴀʀ : {release_date}
-🗞 ʟᴀɴɢᴜᴀɢᴇ : {languages}
-🌎 ᴄᴏᴜɴᴛʀʏ : {countries}
-
-©{message.chat.title}</b>
-"""
-
-    CUSTOM_FILE_CAPTION = """<a href="https://t.me/The_Happy_Hour_Hindi"><b>{file_name}</b></a>
-
-════════※ ·❆· ※════════
-<a href="https://t.me/Happy_Hour_Friends"><b>ㅤㅤ▫️Mᴏᴠɪᴇ Rᴇǫ Gʀᴏᴜᴘ▫️</b></a>
-════════※ ·❆· ※════════"""
+    CUSTOM_FILE_CAPTION = """<b>📂Title : <a href=https://t.me/lusifilms>{file_name}</a></b>
+    
+╔═══════※ ·❆· ※═══════╗
+▫️ Cʜᴀɴɴᴇʟ : <a href=https://t.me/lusifilms>𝐋𝐮𝐬𝐢 𝐅𝐢𝐥𝐦𝐬™</a>
+▫️ Mᴏᴠɪᴇ Rᴇǫ Gʀ  : <a href=https://t.me/apnamovie4>𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞</a>
+╚═══════※ ·❆· ※═══════╝"""
 
     RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
